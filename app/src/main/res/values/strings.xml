@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Movie</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="release_date">Release Date</string>
+    <string name="vote_avg">Vote Average</string>
+    <string name="plot">Plot Synopsis</string>
+    <string name="MOVIE_BASE_URL">"http://api.themoviedb.org/3/"</string>
+</resources>

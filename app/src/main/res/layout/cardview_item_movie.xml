@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackgroundBorderless"
+    android:id="@+id/cardview_id"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/default_gap"
+        android:paddingBottom="8dp">
+
+        <ImageView
+            android:id="@+id/movie_img_id"
+            android:layout_width="160dp"
+            android:layout_height="220dp"
+            android:background="@android:color/black"
+            android:scaleType="fitXY"
+            />
+
+        <!--android:adjustViewBounds="true"-->
+            <!--android:maxHeight="@dimen/default_gap"-->
+            <!--android:maxWidth="160dp"/>-->
+           <TextView
+            android:id="@+id/movie_title_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14dp"
+            android:textColor="@android:color/background_dark"
+            android:gravity="center"
+            android:text="@string/movie_title"
+            android:ellipsize="end"
+            android:maxLines="2"/>
+    </LinearLayout>
+
+
+</GridLayout>
